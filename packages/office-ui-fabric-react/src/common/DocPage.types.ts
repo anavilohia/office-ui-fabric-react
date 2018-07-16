@@ -100,7 +100,7 @@ export interface IDocPageProps {
   bestPractices?: string;
 
   /** Feedback section displays recent GitHub issues and provides link to new issue page */
-  feedback?: string;
+  feedback?: string[];
 
   /** Passed through header visibility flag from the demo component page component */
   isHeaderVisible: boolean;
